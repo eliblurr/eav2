@@ -5,3 +5,7 @@ venv/
 *.log
 __pycache__/
 .env
+*.png
+*.jpeg
+*.jpg
+
