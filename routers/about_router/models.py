@@ -2,8 +2,8 @@ from sqlalchemy import Boolean, Column, Integer, String, DateTime
 from database import Base
 import datetime
 
-class Users(Base):
-    __tablename__ = "users"
+class AboutUs(Base):
+    __tablename__ = "about_us"
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     title = Column(String, nullable=True)
